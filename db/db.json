@@ -1,0 +1,127 @@
+{
+  "persona": [
+    {
+      "id": 1,
+      "nombre": "Carlos Bustamante",
+      "direccion": "Av. Libertador 222",
+      "celular": "78451232"
+    },
+    {
+      "id": 2,
+      "nombre": "Juan Ventura",
+      "direccion": "Av Ayacucho 132",
+      "celular": "69854121"
+    },
+    {
+      "id": 3,
+      "nombre": "Maria Arnez",
+      "direccion": "Av. Heroninas 444",
+      "celular": "78951231"
+    },
+    {
+      "id": 4,
+      "nombre": "Jane Flores",
+      "direccion": "Av. civica",
+      "telefono": "7864554"
+    },
+    {
+      "id": "7",
+      "nombre": "ghgh",
+      "direccion": "fghdfgh",
+      "celular": "78788748"
+    }
+  ],
+  "agua": [
+    {
+      "id": 1,
+      "cantidad": 7,
+      "fecha": "2022-11-20",
+      "total": 45,
+      "personaId": 1
+    }
+  ],
+  "ingredientes": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "Italiano Branco"
+      },
+      {
+        "id": 2,
+        "tipo": "3 Queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 4,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 4,
+        "tipo": "Pepino"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "nome": "João Coelho",
+      "carne": "Maminha",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Salame",
+        "Cebola roxa"
+      ],
+      "status": "Solicitado",
+      "id": 4
+    },
+    {
+      "nome": "luci",
+      "carne": "Alcatra",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Salame",
+        "Bacon"
+      ],
+      "status": "Solicitado",
+      "id": 5
+    }
+  ]
+}
